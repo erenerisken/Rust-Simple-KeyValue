@@ -168,5 +168,11 @@ fn parse_input(input: &String) -> Command{
 }
 
 fn show_help(){
-    println!("You asked for help");
+    println!("Available commands:");
+    println!("INSERT <key> <value>");
+    println!("GET <key>");
+    println!("UPDATE <key> <new_value>");
+    println!("DELETE <key>");
+    println!("LIST");
+    println!("EXIT");
 }
